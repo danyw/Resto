@@ -368,6 +368,7 @@ footer {
   .hero {
     display: flex;
     padding: 1rem;
+    justify-content: space-between;
   }
   .hero-info {
     padding: 1rem;
@@ -381,6 +382,7 @@ footer {
   #hero-image {
     width: 375px;
   }
+
   .specialities {
     padding: 2rem;
     background-color: #efefef;
@@ -429,6 +431,13 @@ footer {
   .expert-img {
     height: 350px;
   }
+  /* TODO Responsive pic. Stretched pic at the moment. */
+  /* .reservation {
+    padding-bottom: 16rem;
+  } */
+  /* .reservation-img {
+    height: 100%;
+  } */
   .reservation-form-section {
     position: absolute;
     top: 50px;
